@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eee;
+    margin: 0;
+    padding: 24px 16px;
+}
+
+/* Painel principal (wireframe) */
+.painel {
+    max-width: 960px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.painel-titulo {
+    border-bottom: 1px solid #000;
+    padding: 14px 16px;
+}
+
+.titulo {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+/* Botão à direita, abaixo do título */
+.painel-acoes {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 12px;
+    border-bottom: 1px solid #000;
+}
+
+/* Tabela Bootstrap (table-light) + alinhamentos do layout */
+table.tabela-grade {
+    width: 100%;
+}
+
+.tabela-grade th,
+.tabela-grade td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tabela-grade thead th {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.tabela-grade tbody td {
+    font-size: 0.85rem;
+}
