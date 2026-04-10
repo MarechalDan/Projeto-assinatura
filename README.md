@@ -2,6 +2,8 @@
 Crud assinatura
 Projeto Safeduc
 
+Linguagens: Javascript + bootstrap
+
 O que isso faz
 
 E uma pagina com uma tabela de documentos.
